@@ -1,0 +1,53 @@
+.carousel-inner{
+    width: 90%;
+    margin-left: 83px;
+    margin-top: 140px;
+}
+
+.nav-item{
+    padding-left: 5px;
+    width: 100px;
+    padding-top: 20px;
+}
+
+h4{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.footer {
+    background-color: rgb(217, 222, 222);
+    margin-top: 50px;
+}
+
+.content-footer{
+    padding-top: 10px;
+}
+
+.dropdown-content{
+    margin-left: -70px;
+    margin-top: 2px;
+    border-radius: 6px;
+}
+
+dropdown-content a:link,
+.dropdown-content a:visited {
+  color: rgb(0, 0, 0); /* Màu của liên kết khi chưa được click */
+}
+
+/* Hover màu xanh lá */
+.dropdown-content a:hover,
+.dropdown-content a:active {
+   color: rgba(4, 202, 106, 0.936); /* Màu của liên kết khi hover hoặc được click */
+}
+
+.dropdown-content #DN:hover{
+    background-color: rgba(195, 199, 202, 0.974);
+    border-radius: 5px;
+}
+
+.dropdown-content #DK:hover{
+    background-color: rgba(195, 199, 202, 0.974);
+    border-radius: 5px;
+}

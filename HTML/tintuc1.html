@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tin tức đồng hồ cơ Otis Store</title>
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="../CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="../CSS/Sanpham.css">
+    <link rel="stylesheet" href="../CSS/Trangchu.css">
+    <link rel="stylesheet" href="../CSS/dropdown.css">  
+    <link rel="stylesheet" href="../CSS/rating.css">
+    <link rel="stylesheet" href="../CSS/footer.css">
+    <link rel="stylesheet" href="../CSS/Dangnhap.css">
+    <link rel="stylesheet" href="../CSS/Tintuc.css">
+    <link href="../CSS/media_query.css" rel="stylesheet" type="text/css"/>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+          integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="../CSS/animate.css" rel="stylesheet" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link href="../CSS/owl.carousel.css" rel="stylesheet" type="text/css"/>
+    <link href="../CSS/owl.theme.default.css" rel="stylesheet" type="text/css"/>
+    <!-- Bootstrap CSS -->
+    <link href="../CSS/style_1.css" rel="stylesheet" type="text/css"/>
+    <!-- Bootstrap js -->
+    <script src="../JS/jquery.slim.min.js"></script>
+    <script src="../JS/bootstrap.min.js"></script>
+    <script src="../JS/jquery.min.js"></script>
+    <script src="../JS/popper.min.js"></script>
+    <script src="../JS/bootstrap.bundle.min.js"></script>
+    <script src="../JS/modernizr-3.5.0.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="../JS/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+<!-- Waypoints -->
+    <script src="../JS/jquery.waypoints.min.js"></script>
+<!-- Main -->
+    <script src="../JS/main.js"></script>
+</head>
+<body class="single">
+    <div class="container">
+        <div class="row">
+            <nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-center fixed-top">
+                <!-- Brand/logo -->
+                    <div class="col">
+                        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                            <a class="navbar-brand" href="../IMG/Logo_Store_Otis.png">
+                                <img src="../IMG/Logo_Store_Otis.png" alt="logo" " style="width:100px;">
+                            </a>
+                        </div>  
+                    </div>
+                    <!-- Links -->
+                    <div class="col" style="margin-left: -100px;">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="../HTML/Trangchu.html">Trang chủ</a>
+                            </li>
+                            <!-- Dropdown -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                    Sản phẩm
+                                    </a>
+                                    <div class="dropdown">
+                                        <div class="dropdown-content">
+                                          <a href="../HTML/Donghonam.html">Đồng hồ nam</a>
+                                          <a href="../HTML/Donghonu.html">Đồng hồ nữ</a>
+                                          <a href="../HTML/Phukiendongho.html">Phụ kiện đồng hồ</a>
+                                        </div>
+                                      </div>
+                                      
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="../HTML/Gioithieu.html">Giới thiệu</a>
+                                <div class="dropdown">
+                                    <div class="dropdown-content">
+                                      <a href="../HTML/Contact.html">Liện hệ</a>
+                                    </div>
+                                  </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="../HTML/Tintuc.html">Tin tức</a>
+                                <div class="dropdown">
+                                    <div class="dropdown-content">
+                                      <a href="../HTML/Dulieunguoidung.html">Dữ liệu người dùng</a>
+                                    </div>
+                                  </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../HTML/Sinhvien.html">Sinh viên</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <form class="form-inline" action="#">
+                            <input class="form-control mr-sm-2" type="text" placeholder="Bạn cần tìm gì ">
+                            <button class="btn btn-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                    <div class="dropdown" style="float:right;">
+                        <button type="button" class="btn btn-info btn-round" data-toggle="modal" data-target="#loginModal">
+                            <a href="../HTML/Dangnhap.html" style="color: rgb(8, 8, 8); text-decoration: none;">Đăng nhập</a>
+                        </button>
+                        <div class="dropdown-content"">
+                          <a href="../HTML/Dangnhap.html" id="DN">Đăng nhập</a>
+                          <a href="../HTML/Dangky.html"id="DK">Đăng ký</a>
+                        </div>
+                    </div>
+                    <button style="font-size:10px; cursor: pointer;margin-right:20px;margin-left: 10px; " onclick="location.href='../HTML/Giohang.html'">
+                        <i class="fa fa-shopping-cart"></i>
+                    </button>
+            </nav>
+        </div>
+    </div>
+
+    <div id="fh5co-title-box" style="background-image: url(../IMG/tintuc1.png); background-position: 50% 90.5px;" data-stellar-background-ratio="0.5">
+        <div class="overlay"></div>
+        <div class="page-title">
+            <img src="../IMG/tintuc1.png" alt="">
+            <span>January 12, 2023</span>
+            <h2>Tại sao đồng hơ cơ Otis Store lại tốt hơn nơi khác?</h2>
+        </div>
+    </div>
+    <div id="fh5co-single-content" class="container-fluid pb-4 pt-4 paddding">
+        <div class="container paddding">
+            <div class="row mx-0">
+                <div class="col-md-8 animate-box" data-animate-effect="fadeInLeft">
+                    <p>
+                        Mỗi chiếc đồng hồ tại Otis Store trước khi được về với chủ nhân sở hữu đều phải trải qua quá trình QC (Quality Control – kiểm soát chất lượng) khắt khe. <br> <br>
+
+                        Ở những cửa hàng, doanh nghiệp bán lẻ ngoài thị trường, thông thường sẽ chọn phương án nhập nguyên kiện mà không QC lại từng chiếc. Điều này giúp tiết kiệm nhiều chi phí, thời gian cũng như nhân lực. <br> <br>
+
+                        Thay vì dùng nhân lực và vật lực vào khâu QC, họ chọn sử dụng 2 nguồn lực này để đẩy mạnh các chương trình marketing, giảm giá, khuyến mãi,… hấp dẫn. <br> <br>
+
+                        Tuy nhiên, Otis Store đã không đi theo lối mòn ấy! <br> <br>
+
+                        Sau khi đồng hồ được nhập về kho sẽ được đội ngũ QC của Otis Store kiểm tra thủ công kỹ lưỡng từng chiếc một. Dù sẽ mất nhiều thời gian hơn nhưng chính nhờ vậy mà tất cả các sản phẩm mà Otis Store bán ra đều đạt chuẩn là hàng loại 1, đẹp, chất lượng cao.
+                    </p>
+                    <p>
+                        Đối với đồng hồ cơ, tuổi thọ của các linh kiện sẽ bị giảm nếu không được lên cót và sử dụng thường xuyên. Để ngăn chặn tình trạng này, Otis Store đã bố trí hộp xoay lên cót dành riêng cho đồng hồ cơ tại một góc riêng của showroom. <br> <br>
+
+                        Sau khi trải qua 2 bước là QC và bọc nilon, đồng hồ sẽ được cho vào hộp xoay rồi mới được trưng bày vào tủ. Hộp xoay có chức năng tái tạo năng lượng cho đồng hồ mà không cần phải đeo lên tay hay lên dây cót thủ công. <br> <br>
+
+                        Do vậy, bạn hoàn toàn có thể yên tâm về chất lượng sản phẩm tại Otis Store, đặc biệt là đối với đồng hồ nói chung và đồng hồ cơ nói riêng. <br>
+
+
+                    </p>
+                    <h3>Một số câu hỏi thường gặp về đồng hồ cơ được bán tại Otis Store</h3>
+                    <p>
+                        <b>1. Otis Store có bán hộp xoay lên cót đồng hồ cơ không?</b>
+                        <br>
+                        Otis Store không bán hộp xoay lên cót đồng hồ cơ. Hộp xoay mà chúng tôi sử dụng là để đảm bảo đồng hồ luôn ở trong tình trạng hoạt động mượt mà, bền bỉ.
+
+                        Một số thương hiệu hộp xoay lên cót nổi tiếng trên thế giới mà bạn có thể tham khảo là: Barrington, Wolff và Eniq Watch., justo lectus aliquam
+                        libero, eu lacinia tellus leo eu orci.
+                    </p>
+                    <p>
+                        <b>2. Dòng đồng hồ cơ nào đang được yêu thích nhất?</b>
+                        <br>2 dòng đồng hồ cơ bán chạy và được yêu thích nhất tại Otis Store đó là <a href="#">Orient automatic</a> và <a href="#">Citizen automatic</a>. Tuy nhiên về thiết kế của đồng hồ cơ Orient và Citizen có những khác biệt nhất định. 
+
+                        Orient thường có thiết kế đơn giản, trang nhã, tập trung vào tính thẩm mỹ và độ chính xác của đồng hồ. Trong khi đó, Citizen thường có thiết kế hiện đại, thời trang và nhiều tính năng hơn, như chống nước, đo độ sâu, bộ máy năng lượng ánh sáng…
+                        
+                        Ngoài ra, giá bán của 2 thương hiệu này cũng không quá chênh lệch. Đồng hồ cơ Orient từ 4-25 triệu đồng và Citizen từ 5-15 triệu đồng). Tùy vào nhu cầu và sở thích của từng người mà bạn hãy lựa chọn đồng hồ phù hợp.
+                    </p>
+                    <p>
+                        <b>3. Đồng hồ cơ trưng bày mà hết cót thì Otis Store làm gì?</b>
+                        <br>Tất cả đồng hồ cơ trước khi được trưng bày lên kệ để bán thì đều đã được cho vào hộp xoay lên cót để có được năng lượng và duy trì hoạt động cho đồng hồ.
+
+                        Tuy nhiên, sau một thời gian mà đồng hồ vẫn chưa có ai “rước” và dừng hoạt động do hết cót thì các nhân viên bán hàng tại Otis Store sẽ lấy ra và cho lại vào hộp xoay cót.
+                        
+                        Quá trình này sẽ diễn ra đều đặn và liên tục, giúp ổn định chất lượng của đồng hồ cơ, đồng thời đảm bảo các linh kiện đều đang hoạt động tốt.
+                    </p>
+                    <p>
+                        <b>4. Cách sử dụng và bảo quản đồng hồ cơ đúng cách?</b>
+                        <br>Đồng hồ cơ tuy có tuổi thọ lâu hơn <a href="#">đồng hồ pin</a> nhưng cách sử dụng và bảo quản lại có phần rườm rà hơn đôi chút.
+                    </p>
+                </div>
+                <div class="col-md-3 animate-box" data-animate-effect="fadeInRight">
+                    <div>
+                        <div class="fh5co_heading fh5co_heading_border_bottom py-2 mb-4">Tags</div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="fh5co_tags_all">
+                        <a href="#" class="fh5co_tagg">Otis Store</a>
+                        <a href="#" class="fh5co_tagg">Đồng hồ rẻ nhất</a>
+                        <a href="#" class="fh5co_tagg">Most expensive</a>
+                        <a href="#" class="fh5co_tagg">Tuyển dụng</a>
+                        <a href="#" class="fh5co_tagg">Thể thao</a>
+                        <a href="#" class="fh5co_tagg">Theo dõi sức khỏe </a>
+                        <a href="#" class="fh5co_tagg">Smart clock</a>
+                        <a href="#" class="fh5co_tagg">Cách liên hệ</a>
+                        <a href="#" class="fh5co_tagg">Đồng hồ cho trẻ em</a>
+                        <a href="#" class="fh5co_tagg">Casio</a>
+                        <a href="#" class="fh5co_tagg">G-Shock</a>
+                        <a href="#" class="fh5co_tagg">Sale giảm sâu</a>
+                    </div>
+                    <div>
+                        <div class="fh5co_heading fh5co_heading_border_bottom pt-3 py-2 mb-4">Most Popular</div>
+                    </div>
+                    <div class="row pb-3">
+                        <div class="col-5 align-self-center">
+                            <img src="../IMG/tintuc5.png" alt="img" class="fh5co_most_trading"/>
+                        </div>
+                        <div class="col-7 paddding">
+                            <div class="most_fh5co_treding_font"> Giám đốc hãng Certina (Thụy Sĩ) đến thăm showroom Otis Store.</div>
+                            <div class="most_fh5co_treding_font_123"> 16/11/2023</div>
+                        </div>
+                    </div>
+                    <div class="row pb-3">
+                        <div class="col-5 align-self-center">
+                            <img src="../IMG/tintuc6.png" alt="img" class="fh5co_most_trading"/>
+                        </div>
+                        <div class="col-7 paddding">
+                            <div class="most_fh5co_treding_font">  Tổng giám đốc Movado Group đến thăm showroom Otis Store.</div>
+                            <div class="most_fh5co_treding_font_123"> 26/5/2022</div>
+                        </div>
+                    </div>
+                    <div class="row pb-3">
+                        <div class="col-5 align-self-center">
+                            <img src="../IMG/tintuc7.png" alt="img" class="fh5co_most_trading"/>
+                        </div>
+                        <div class="col-7 paddding">
+                            <div class="most_fh5co_treding_font">  Certina đào tạo và cấp chứng nhận cho nhân viên tại Otis Store.</div>
+                            <div class="most_fh5co_treding_font_123"> 20/12/2024</div>
+                        </div>
+                    </div>
+                    <div class="row pb-3">
+                        <div class="col-5 align-self-center"><img src="../IMG/tintuc8.png" alt="img"
+                                                                  class="fh5co_most_trading"/></div>
+                        <div class="col-7 paddding">
+                            <div class="most_fh5co_treding_font"> Hàng loạt cửa hàng mạo danh Đồng Hồ Otis Store để lừa đảo.</div>
+                            <div class="most_fh5co_treding_font_123"> 23/5/2023</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="container-fluid pb-4 pt-5" style="margin-bottom: -1900px;">
+        <div class="container animate-box">
+            <div>
+                <div class="fh5co_heading fh5co_heading_border_bottom py-2 mb-4">Trending</div>
+            </div>
+            <div class="owl-carousel owl-theme" id="slider2">
+                <div class="item px-2">
+                    <div class="fh5co_hover_news_img">
+                        <div class="fh5co_news_img"><img src="../IMG/trending1.png" alt=""/></div>
+                        <div>
+                            <a href="#" class="d-block fh5co_small_post_heading"><span class="">Đồng hồ Rolex nam, nữ chính hãng giá bao nhiêu? Đánh giá chi tiết</span></a>
+                            <div class="c_g"><i class="fa fa-clock-o"></i> Oct 16,2023</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item px-2">
+                    <div class="fh5co_hover_news_img">
+                        <div class="fh5co_news_img"><img src="../IMG/trending2.png" alt=""/></div>
+                        <div>
+                            <a href="#" class="d-block fh5co_small_post_heading"><span class=""> Lịch sử ra đời đồng hồ thạch anh đe doạ đến đồng hồ Thuỵ Sỹ</span></a>
+                            <div class="c_g"><i class="fa fa-clock-o"></i> Sep 27,2016</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item px-2">
+                    <div class="fh5co_hover_news_img">
+                        <div class="fh5co_news_img"><img src="../IMG/trending3.png" alt=""/></div>
+                        <div>
+                            <a href="#" class="d-block fh5co_small_post_heading"><span class="">Diashock là gì? Tìm hiểu về cấu trúc chống sốc của Seiko</span></a>
+                            <div class="c_g"><i class="fa fa-clock-o"></i> July 23,2020</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item px-2">
+                    <div class="fh5co_hover_news_img">
+                        <div class="fh5co_news_img"><img src="../IMG/trending4.png" alt=""/></div>
+                        <div>
+                            <a href="#" class="d-block fh5co_small_post_heading"><span class="">Đồng hồ máy Quartz là gì? Ưu, nhược điểm đồng hồ quartz</span></a>
+                            <div class="c_g"><i class="fa fa-clock-o"></i> Jun 29,2013</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="gototop js-top">
+        <a href="#" class="js-gotop"><i class="fa fa-arrow-up"></i></a>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer" style="margin-top: 1900px;">
+        <section class="content-footer">
+          <div class="container text-center text-md-start mt-5">
+            <div class="row mt-3">
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <h6 class="text-uppercase fw-bold mb-4">
+                  <i class="fas fa-gem me-3"></i>Store Otis
+                </h6>
+                <p>
+                  Welcome to shop Store Otis , we have anything you need . Come with us !
+                </p>
+              </div>
+      
+    
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <h6 class="text-uppercase fw-bold mb-4">
+                  PRODUCT
+                </h6>
+                <p>
+                  <a href="../HTML/Donghonam.html" class="text-reset">Đồng hồ nam</a>
+                </p>
+                <p>
+                  <a href="../HTML/Donghonu.html" class="text-reset">Đồng hồ nữ</a>
+                </p>
+                <p>
+                  <a href="../HTML/Phukiendongho.html" class="text-reset">Phụ kiện đồng hồ chính hãng</a>
+                </p>
+                <p>
+                  <a href="../HTML/Tintuc.html" class="text-reset">Tin tức</a>
+                </p>
+              </div>
+      
+    
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <h6 class="text-uppercase fw-bold mb-4">
+                  SUPPORT
+                </h6>
+                <p>
+                  <a href="#!" class="text-reset">Settings</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Orders</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Help</a>
+                </p>
+              </div>
+      
+    
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                <p><i class="fa fa-home"></i>
+                    TP. Biên Hòa , T.Đồng Nai , P.Trảng Dài</p>
+                <p>
+                    <i class="material-icons" style="margin-bottom: 10px;">person</i>
+                    vudinhkhoa2k2@gmail.com
+                </p>
+                <p><i class="fa fa-phone" style="font-size:15px"></i>&nbsp; 0328 710 708</p>
+                <p><i class="fa fa-phone" style="font-size:15px;"></i>&nbsp; 0123 456 789</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+          © 2024 Copyright:
+          <a class="text-reset fw-bold" href="../HTML/Trangchu.html">STOREOTIS.com</a>
+        </div>
+      </footer>
+</body>
+</html>

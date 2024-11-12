@@ -1,0 +1,1904 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đồng hồ nam 2</title>
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="../CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="../CSS/Trangchu.css">
+    <link rel="stylesheet" href="../CSS/dropdown.css">
+    <link rel="stylesheet" href="../CSS/rating.css">
+    <link rel="stylesheet" href="../CSS/footer.css">
+    <link rel="stylesheet" href="../CSS/Dangnhap.css">
+    <link rel="stylesheet" href="../CSS/Donghonam.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- Bootstrap js -->
+    <script src="../JS/jquery.slim.min.js"></script>
+    <script src="../JS/bootstrap.min.js"></script>
+    <script src="../JS/jquery.min.js"></script>
+    <script src="../JS/popper.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-center fixed-top">
+                <!-- Brand/logo -->
+                    <div class="col">
+                        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                            <a class="navbar-brand" href="../IMG/Logo_Store_Otis.png">
+                                <img src="../IMG/Logo_Store_Otis.png" alt="logo" " style="width:100px;">
+                            </a>
+                        </div>  
+                    </div>
+                    <!-- Links -->
+                    <div class="col" style="margin-left: -100px;">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="../HTML/Trangchu.html">Trang chủ</a>
+                            </li>
+                            <!-- Dropdown -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                    Sản phẩm
+                                    </a>
+                                    <div class="dropdown">
+                                        <div class="dropdown-content">
+                                          <a href="../HTML/Donghonam.html">Đồng hồ nam</a>
+                                          <a href="../HTML/Donghonu.html">Đồng hồ nữ</a>
+                                          <a href="../HTML/Phukiendongho.html">Phụ kiện đồng hồ</a>
+                                        </div>
+                                      </div>
+                                      
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="../HTML/Gioithieu.html">Giới thiệu</a>
+                                <div class="dropdown">
+                                    <div class="dropdown-content">
+                                      <a href="../HTML/Contact.html">Liện hệ</a>
+                                    </div>
+                                  </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="../HTML/Tintuc.html">Tin tức</a>
+                                <div class="dropdown">
+                                    <div class="dropdown-content">
+                                      <a href="../HTML/Dulieunguoidung.html">Dữ liệu người dùng</a>
+                                    </div>
+                                  </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../HTML/Sinhvien.html">Sinh viên</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <form class="form-inline" action="#">
+                            <input class="form-control mr-sm-2" type="text" placeholder="Bạn cần tìm gì ">
+                            <button class="btn btn-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                    <div class="dropdown" style="float:right;">
+                        <button type="button" class="btn btn-info btn-round" data-toggle="modal" data-target="#loginModal">
+                            <a href="../HTML/Dangnhap.html" style="color: rgb(8, 8, 8); text-decoration: none;">Đăng nhập</a>
+                        </button>
+                        <div class="dropdown-content"">
+                          <a href="../HTML/Dangnhap.html" id="DN">Đăng nhập</a>
+                          <a href="../HTML/Dangky.html"id="DK">Đăng ký</a>
+                        </div>
+                        <button style="font-size:10px; cursor: pointer;margin-right:20px;margin-left: 10px; " onclick="location.href='../HTML/Giohang.html'">
+                            <i class="fa fa-shopping-cart"></i>
+                        </button>
+                    </div>
+            </nav>
+        </div>
+    </div>
+    
+
+    <div class="container" style="margin-top: 70px;">
+        <div class="row">
+        <aside class="col-md-3">
+            
+    <div class="card">
+        <article class="filter-group">
+            <header class="card-header">
+                <a href="#" data-toggle="collapse" data-target="#collapse_1" aria-expanded="true" class="">
+                    <i class="icon-control fa fa-chevron-down"></i>
+                    <h6 class="title">Top tìm kiếm</h6>
+                </a>
+            </header>
+            <div class="filter-content collapse show" id="collapse_1" style="">
+                <div class="card-body">
+                    <form class="pb-3">
+                    <div class="input-group">
+                      <input type="text" class="form-control" placeholder="Search">
+                      <div class="input-group-append">
+                        <button class="btn btn-light" type="button"><i class="fa fa-search"></i></button>
+                      </div>
+                    </div>
+                    </form>
+                    
+                    <ul class="list-menu">
+                    <li><a href="#">Đồng hồ nam  </a></li>
+                    <li><a href="#">Đồng hồ nữ </a></li>
+                    <li><a href="#">Tin tức đồng hồ  </a></li>
+                    <li><a href="#">Phụ kiện dây da  </a></li>
+                    <li><a href="#">Đồng hồ cho trẻ em </a></li>
+                    <li><a href="#">Đồng hồ thông minh</a></li>
+                    <li><a href="#">Đồng hồ cho người già </a></li>
+                    </ul>
+    
+                </div> <!-- card-body.// -->
+            </div>
+        </article> <!-- filter-group  .// -->
+        <article class="filter-group">
+            <header class="card-header">
+                <a href="#" data-toggle="collapse" data-target="#collapse_2" aria-expanded="true" class="">
+                    <i class="icon-control fa fa-chevron-down"></i>
+                    <h6 class="title">Thương hiệu </h6>
+                </a>
+            </header>
+            <div class="filter-content collapse show" id="collapse_2" style="">
+                <div class="card-body">
+                    <label class="custom-control custom-checkbox">
+                      <input type="checkbox" checked="" class="custom-control-input">
+                      <div class="custom-control-label">Casio 
+                          <b class="badge badge-pill badge-light float-right">2738</b>  </div>
+                    </label>
+                    <label class="custom-control custom-checkbox">
+                      <input type="checkbox" checked="" class="custom-control-input">
+                      <div class="custom-control-label">Seiko
+                          <b class="badge badge-pill badge-light float-right">1480</b>  </div>
+                    </label>
+                    <label class="custom-control custom-checkbox">
+                      <input type="checkbox" checked="" class="custom-control-input">
+                      <div class="custom-control-label">Fossil
+                          <b class="badge badge-pill badge-light float-right">645</b> </div>
+                    </label>
+                    <label class="custom-control custom-checkbox">
+                      <input type="checkbox" checked="" class="custom-control-input">
+                      <div class="custom-control-label">G-Shock
+                          <b class="badge badge-pill badge-light float-right">536</b> </div>
+                    </label>
+                    <label class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input">
+                      <div class="custom-control-label">Doxa
+                          <b class="badge badge-pill badge-light float-right">294</b>  </div>
+                    </label>
+        </div> <!-- card-body.// -->
+            </div>
+        </article> <!-- filter-group .// -->
+        <article class="filter-group">
+            <header class="card-header">
+                <a href="#" data-toggle="collapse" data-target="#collapse_3" aria-expanded="true" class="">
+                    <i class="icon-control fa fa-chevron-down"></i>
+                    <h6 class="title">Mức giá </h6>
+                </a>
+            </header>
+            <div class="filter-content collapse show" id="collapse_3" style="">
+                <div class="card-body">
+                    <input type="range" class="custom-range" min="0" max="100" name="">
+                    <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <label>Min</label>
+                      <input class="form-control" placeholder="0&#8363;" type="number">
+                    </div>
+                    <div class="form-group text-right col-md-6">
+                      <label>Max</label>
+                      <input class="form-control" placeholder="9.000.000&#8363;" type="number">
+                    </div>
+                    </div> <!-- form-row.// -->
+                    <button class="btn btn-block btn-primary">Apply</button>
+                </div><!-- card-body.// -->
+            </div>
+        </article> <!-- filter-group .// -->
+        <article class="filter-group">
+            <header class="card-header">
+                <a href="#" data-toggle="collapse" data-target="#collapse_4" aria-expanded="true" class="">
+                    <i class="icon-control fa fa-chevron-down"></i>
+                    <h6 class="title">Chất liệu mặt kính </h6>
+                </a>
+            </header>
+            <div class="filter-content collapse show" id="collapse_4" style="">
+                <div class="card-body">
+                  <label class="checkbox-btn">
+                    <input type="checkbox">
+                    <span class="btn btn-light"> Kính nhựa </span>
+                  </label>
+    
+                  <label class="checkbox-btn">
+                    <input type="checkbox">
+                    <span class="btn btn-light"> Kính cứng </span>
+                  </label>
+    
+                  <label class="checkbox-btn">
+                    <input type="checkbox">
+                    <span class="btn btn-light"> Kính Sapphire </span>
+                  </label>
+    
+                  <label class="checkbox-btn">
+                    <input type="checkbox">
+                    <span class="btn btn-light"> Kính lô </span>
+                  </label>
+            </div><!-- card-body.// -->
+            </div>
+        </article> <!-- filter-group .// -->
+        <article class="filter-group">
+            <header class="card-header">
+                <a href="#" data-toggle="collapse" data-target="#collapse_5" aria-expanded="false" class="">
+                    <i class="icon-control fa fa-chevron-down"></i>
+                    <h6 class="title">Bộ máy và năng lượng </h6>
+                </a>
+            </header>
+            <div class="filter-content collapse in" id="collapse_5" style="">
+                <div class="card-body">
+                    <label class="custom-control custom-radio">
+                      <input type="radio" name="myfilter_radio" checked="" class="custom-control-input">
+                      <div class="custom-control-label">Cơ (Automatic)</div>
+                    </label>
+    
+                    <label class="custom-control custom-radio">
+                      <input type="radio" name="myfilter_radio" class="custom-control-input">
+                      <div class="custom-control-label">Lên Cót Tay (Hand Winding) </div>
+                    </label>
+    
+                    <label class="custom-control custom-radio">
+                      <input type="radio" name="myfilter_radio" class="custom-control-input">
+                      <div class="custom-control-label">Năng Lượng Ánh Sáng</div>
+                    </label>
+    
+                    <label class="custom-control custom-radio">
+                      <input type="radio" name="myfilter_radio" class="custom-control-input">
+                      <div class="custom-control-label">Pin (Quartz)</div>
+                    </label>
+                </div>
+            </div>
+        </article>
+        <article class="filter-group">
+            <header class="card-header">
+                <a href="#" data-toggle="collapse" data-target="#collapse_4" aria-expanded="true" class="">
+                    <i class="icon-control fa fa-chevron-down"></i>
+                    <h6 class="title">Hình dạng mặt số </h6>
+                </a>
+            </header>
+            <div class="filter-content collapse show" id="collapse_4" style="">
+                <div class="card-body">
+                  <label class="checkbox-btn">
+                    <input type="checkbox">
+                    <span class="btn btn-light"> Chữ nhật</span>
+                  </label>
+    
+                  <label class="checkbox-btn">
+                    <input type="checkbox">
+                    <span class="btn btn-light"> Đặc biệt </span>
+                  </label>
+    
+                  <label class="checkbox-btn">
+                    <input type="checkbox">
+                    <span class="btn btn-light"> Tròn </span>
+                  </label>
+    
+                  <label class="checkbox-btn">
+                    <input type="checkbox">
+                    <span class="btn btn-light"> Vuông </span>
+                  </label>
+            </div><!-- card-body.// -->
+            </div>
+        </article>
+        <article class="filter-group">
+            <header class="card-header">
+                <a href="#" data-toggle="collapse" data-target="#collapse_2" aria-expanded="true" class="">
+                    <i class="icon-control fa fa-chevron-down"></i>
+                    <h6 class="title">Mức chống nước </h6>
+                </a>
+            </header>
+            <div class="filter-content collapse show" id="collapse_2" style="">
+                <div class="card-body">
+                    <label class="custom-control custom-checkbox">
+                      <input type="checkbox" checked="" class="custom-control-input">
+                      <div class="custom-control-label">Đi bơi
+                          <b class="badge badge-pill badge-light float-right">10 ATM</b>  </div>
+                    </label>
+                    <label class="custom-control custom-checkbox">
+                      <input type="checkbox" checked="" class="custom-control-input">
+                      <div class="custom-control-label">Đi mưa nhỏ
+                          <b class="badge badge-pill badge-light float-right">3 ATM</b>  </div>
+                    </label>
+                    <label class="custom-control custom-checkbox">
+                      <input type="checkbox" checked="" class="custom-control-input">
+                      <div class="custom-control-label">Đi tắm
+                          <b class="badge badge-pill badge-light float-right">5 ATM</b> </div>
+                    </label>
+                    <label class="custom-control custom-checkbox">
+                      <input type="checkbox" checked="" class="custom-control-input">
+                      <div class="custom-control-label">Lặn biển
+                          <b class="badge badge-pill badge-light float-right">20 ATM</b> </div>
+                    </label>
+                    <label class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input">
+                      <div class="custom-control-label">Lặn sâu 
+                          <b class="badge badge-pill badge-light float-right">30 ATM</b>  </div>
+                    </label>
+        </div> <!-- card-body.// -->
+            </div>
+        </article>
+        <article class="filter-group">
+            <header class="card-header">
+                <a href="#" data-toggle="collapse" data-target="#collapse_2" aria-expanded="true" class="">
+                    <i class="icon-control fa fa-chevron-down"></i>
+                    <h6 class="title">Tính năng </h6>
+                </a>
+            </header>
+            <div class="filter-content collapse show" id="collapse_2" style="">
+                <div class="card-body">
+                    <label class="custom-control custom-checkbox">
+                      <input type="checkbox" checked="" class="custom-control-input">
+                      <div class="custom-control-label">Bluetooth 
+                          <b class="badge badge-pill badge-light float-right">18</b>  </div>
+                    </label>
+                    <label class="custom-control custom-checkbox">
+                      <input type="checkbox" checked="" class="custom-control-input">
+                      <div class="custom-control-label">Chronograph
+                          <b class="badge badge-pill badge-light float-right">76</b>  </div>
+                    </label>
+                    <label class="custom-control custom-checkbox">
+                      <input type="checkbox" checked="" class="custom-control-input">
+                      <div class="custom-control-label">Dạ Quang
+                          <b class="badge badge-pill badge-light float-right">157</b> </div>
+                    </label>
+                    <label class="custom-control custom-checkbox">
+                      <input type="checkbox" checked="" class="custom-control-input">
+                      <div class="custom-control-label">Đo Độ Cao
+                          <b class="badge badge-pill badge-light float-right">1</b> </div>
+                    </label>
+                    <label class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input">
+                      <div class="custom-control-label">Kính Vòm
+                          <b class="badge badge-pill badge-light float-right">15</b>  </div>
+                    </label>
+                    <label class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input">
+                        <div class="custom-control-label">La bàn
+                            <b class="badge badge-pill badge-light float-right">7</b>  </div>
+                      </label>
+                      <label class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input">
+                        <div class="custom-control-label">Open Heart
+                            <b class="badge badge-pill badge-light float-right">64</b>  </div>
+                      </label>
+                      <label class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input">
+                        <div class="custom-control-label">World Time
+                            <b class="badge badge-pill badge-light float-right">11</b>  </div>
+                      </label>
+        </div> <!-- card-body.// -->
+            </div>
+        </article>
+        <article class="filter-group">
+            <header class="card-header">
+                <a href="#" data-toggle="collapse" data-target="#collapse_2" aria-expanded="true" class="">
+                    <i class="icon-control fa fa-chevron-down"></i>
+                    <h6 class="title">Chất liệu dây </h6>
+                </a>
+            </header>
+            <div class="filter-content collapse show" id="collapse_2" style="">
+                <div class="card-body">
+                    <label class="custom-control custom-checkbox">
+                      <input type="checkbox" checked="" class="custom-control-input">
+                      <div class="custom-control-label">Dây da 
+                          <b class="badge badge-pill badge-light float-right">305</b>  </div>
+                    </label>
+                    <label class="custom-control custom-checkbox">
+                      <input type="checkbox" checked="" class="custom-control-input">
+                      <div class="custom-control-label">Dây kim loại
+                          <b class="badge badge-pill badge-light float-right">530</b>  </div>
+                    </label>
+                    <label class="custom-control custom-checkbox">
+                      <input type="checkbox" checked="" class="custom-control-input">
+                      <div class="custom-control-label">Dây Nhựa / Cao Su
+                          <b class="badge badge-pill badge-light float-right">132</b> </div>
+                    </label>
+                    <label class="custom-control custom-checkbox">
+                      <input type="checkbox" checked="" class="custom-control-input">
+                      <div class="custom-control-label">Dây lưới
+                          <b class="badge badge-pill badge-light float-right">26</b> </div>
+                    </label>
+                    <label class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input">
+                      <div class="custom-control-label">Dây Đờ Mi
+                          <b class="badge badge-pill badge-light float-right">75</b>  </div>
+                    </label>
+                    <label class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input">
+                        <div class="custom-control-label">Dây vải
+                            <b class="badge badge-pill badge-light float-right">729</b>  </div>
+                      </label>
+                      <label class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input">
+                        <div class="custom-control-label">Dây Đá / Khoáng
+                            <b class="badge badge-pill badge-light float-right">1</b>  </div>
+                      </label>
+                      <label class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input">
+                        <div class="custom-control-label">Dây Da Cá Sấu
+                            <b class="badge badge-pill badge-light float-right">11</b>  </div>
+                      </label>
+                      <label class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input">
+                        <div class="custom-control-label">Dây titanium
+                            <b class="badge badge-pill badge-light float-right">3</b>  </div>
+                      </label>
+        </div> <!-- card-body.// -->
+            </div>
+        </article>
+    </div> 
+    
+        </aside>
+        <main class="col-md-9">
+    
+    <header class="border-bottom mb-4 pb-3">
+            <div class="form-inline">
+                <span class="mr-md-auto">30 Items found </span>
+                <select class="mr-2 form-control">
+                    <option>Latest items</option>
+                    <option>Trending</option>
+                    <option>Most Popular</option>
+                    <option>Cheapest</option>
+                </select>
+                <div class="btn-group">
+                    <a href="#" class="btn btn-outline-secondary" data-toggle="tooltip" title="" data-original-title="List view"> 
+                        <i class="fa fa-bars"></i></a>
+                    <a href="#" class="btn  btn-outline-secondary active" data-toggle="tooltip" title="" data-original-title="Grid view"> 
+                        <i class="fa fa-th"></i></a>
+                </div>
+            </div>
+    </header><!-- sect-heading -->
+    
+    <div class="row">
+        <div class="col-md-4 mt-2">
+         
+             
+             <div class="card">
+                                 <div class="card-body">
+                                     <div class="card-img-actions">
+                                         
+                                             <img src="../IMG/donghonam1.png" class="card-img img-fluid" width="96" height="350" alt="">
+                                           
+                                        
+                                     </div>
+                                 </div>
+
+                                 <div class="card-body bg-light text-center">
+                                     <div class="mb-2">
+                                         <h6 class="font-weight-semibold mb-2">
+                                             <a href="#" class="text-default mb-2" data-abc="true">Casio MTP-V001L-1BUDF – Nam – Quartz (Pin) – Mặt Số 38mm, Kính Cứng, Chống Nước</a>
+                                         </h6>
+
+                                         <a href="#" class="text-muted" data-abc="true">Đồng hồ nam</a>
+                                     </div>
+
+                                     <h3 class="mb-0 font-weight-semibold">716.000 &#8363;</h3>
+
+                                     <div class="text-muted mb-3">26 reviews</div>
+                                     <!-- rating -->
+                                     <div class="rating">
+
+                                         <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label>
+                                         <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label>
+                                         <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label>
+                                         <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label>
+                                         <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
+                                     </div>
+
+                                     <button type="button" class="btn bg-cart"><i class="fa fa-cart-plus mr-2"></i> Add to cart</button>
+
+                                     
+                                 </div>
+                             </div>
+
+
+                         
+                          
+        </div> 
+
+
+        <div class="col-md-4 mt-2">
+         
+             
+             <div class="card">
+                                 <div class="card-body">
+                                     <div class="card-img-actions">
+                                         
+                                             <img src="../IMG/donghonam2.png" class="card-img img-fluid" width="96" height="350" alt="">
+                                           
+                                        
+                                     </div>
+                                 </div>
+
+                                 <div class="card-body bg-light text-center">
+                                     <div class="mb-2">
+                                         <h6 class="font-weight-semibold mb-2">
+                                             <a href="#" class="text-default mb-2" data-abc="true">Casio World Time AE-1200WHD-1AVDF – Nam – Quartz (Pin) – Mặt Số 45 mm, Bộ Bấm Giờ</a>
+                                         </h6>
+
+                                         <a href="#" class="text-muted" data-abc="true">Đồng hồ nam</a>
+                                     </div>
+
+                                     <h3 class="mb-0 font-weight-semibold">1.506.000 &#8363;</h3>
+
+                                     <div class="text-muted mb-3">34 reviews</div>
+                                     <!-- rating -->
+                                     <div class="rating">
+
+                                         <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label>
+                                         <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label>
+                                         <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label>
+                                         <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label>
+                                         <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
+                                     </div>
+
+                                     <button type="button" class="btn bg-cart"><i class="fa fa-cart-plus mr-2"></i> Add to cart</button>
+
+                                     
+                                 </div>
+                             </div>
+
+
+                         
+                          
+        </div> 
+
+        <div class="col-md-4 mt-2">
+         
+             
+             <div class="card">
+                                 <div class="card-body">
+                                     <div class="card-img-actions">
+                                         
+                                             <img src="../IMG/donghonam3.png" class="card-img img-fluid" width="96" height="350" alt="">
+                                           
+                                        
+                                     </div>
+                                 </div>
+
+                                 <div class="card-body bg-light text-center">
+                                     <div class="mb-2">
+                                         <h6 class="font-weight-semibold mb-2">
+                                             <a href="#" class="text-default mb-2" data-abc="true">Casio MTP-V004L-1AUDF – Nam – Quartz (Pin) – Mặt Số 41.5mm, Kính Cứng, Chống Nước 3ATM </a>
+                                         </h6>
+
+                                         <a href="#" class="text-muted" data-abc="true">Đồng hồ nam</a>
+                                     </div>
+
+                                     <h3 class="mb-0 font-weight-semibold">888.000 &#8363;</h3>
+
+                                     <div class="text-muted mb-3">123 reviews</div>
+                                     <!-- rating -->
+                                     <div class="rating">
+
+                                         <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label>
+                                         <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label>
+                                         <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label>
+                                         <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label>
+                                         <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
+                                     </div>
+
+                                     <button type="button" class="btn bg-cart"><i class="fa fa-cart-plus mr-2"></i> Add to cart</button>
+
+                                     
+                                 </div>
+                             </div>
+
+
+                         
+                          
+        </div> 
+
+
+        <div class="col-md-4 mt-2">
+         
+             
+             <div class="card">
+                                 <div class="card-body">
+                                     <div class="card-img-actions">
+                                         
+                                             <img src="../IMG/donghonam4.png" class="card-img img-fluid" width="96" height="350" alt="">
+                                           
+                                        
+                                     </div>
+                                 </div>
+
+                                 <div class="card-body bg-light text-center">
+                                     <div class="mb-2">
+                                         <h6 class="font-weight-semibold mb-2">
+                                             <a href="#" class="text-default mb-2" data-abc="true">Casio MTP-VT01L-1BUDF – Nam – Quartz (Pin) – Mặt số cùng trường màu tương phản nổi bật</a>
+                                         </h6>
+
+                                         <a href="#" class="text-muted" data-abc="true">Đồng hồ nam</a>
+                                     </div>
+
+                                     <h3 class="mb-0 font-weight-semibold">1.182.000 &#8363;</h3>
+
+                                     <div class="text-muted mb-3">254 reviews</div>
+                                     <!-- rating -->
+                                     <div class="rating">
+
+                                         <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label>
+                                         <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label>
+                                         <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label>
+                                         <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label>
+                                         <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
+                                     </div>
+
+                                     <button type="button" class="btn bg-cart"><i class="fa fa-cart-plus mr-2"></i> Add to cart</button>
+
+                                     
+                                 </div>
+                             </div>
+
+
+                         
+                          
+        </div> 
+
+
+        <div class="col-md-4 mt-2">
+         
+             
+             <div class="card">
+                                 <div class="card-body">
+                                     <div class="card-img-actions">
+                                         
+                                             <img src="../IMG/donghonam5.png" class="card-img img-fluid" width="96" height="350" alt="">
+                                           
+                                        
+                                     </div>
+                                 </div>
+
+                                 <div class="card-body bg-light text-center">
+                                     <div class="mb-2">
+                                         <h6 class="font-weight-semibold mb-2">
+                                             <a href="#" class="text-default mb-2" data-abc="true">Casio MTP-V004GL-9AUDF – Nam – Quartz (Pin) – Mặt Số 41.5mm, Kính Cứng, Chống Nước 3ATM</a>
+                                         </h6>
+
+                                         <a href="#" class="text-muted" data-abc="true">Đồng hồ nam</a>
+                                     </div>
+
+                                     <h3 class="mb-0 font-weight-semibold">938.000 &#8363;</h3>
+
+                                     <div class="text-muted mb-3">203 reviews</div>
+                                     <!-- rating -->
+                                     <div class="rating">
+
+                                         <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label>
+                                         <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label>
+                                         <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label>
+                                         <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label>
+                                         <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
+                                     </div>
+
+                                     <button type="button" class="btn bg-cart"><i class="fa fa-cart-plus mr-2"></i> Add to cart</button>
+
+                                     
+                                 </div>
+                             </div>
+
+
+                         
+                          
+        </div> 
+
+
+        <div class="col-md-4 mt-2">
+         
+             
+             <div class="card">
+                                 <div class="card-body">
+                                     <div class="card-img-actions">
+                                         
+                                             <img src="../IMG/donghonam6.png" class="card-img img-fluid" width="96" height="350" alt="">
+                                           
+                                        
+                                     </div>
+                                 </div>
+
+                                 <div class="card-body bg-light text-center">
+                                     <div class="mb-2">
+                                         <h6 class="font-weight-semibold mb-2">
+                                             <a href="#" class="text-default mb-2" data-abc="true">Casio F-91W-1HDG – Nam – Kính Nhựa – Quartz (Pin) – Mặt Số 35.2mm, Bộ Bấm Giờ</a>
+                                         </h6>
+
+                                         <a href="#" class="text-muted" data-abc="true">Đồng hồ nam</a>
+                                     </div>
+
+                                     <h3 class="mb-0 font-weight-semibold">625.000 &#8363;</h3>
+
+                                     <div class="text-muted mb-3">121 reviews</div>
+                                     <!-- rating -->
+                                     <div class="rating">
+
+                                         <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label>
+                                         <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label>
+                                         <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label>
+                                         <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label>
+                                         <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
+                                     </div>
+
+                                     <button type="button" class="btn bg-cart"><i class="fa fa-cart-plus mr-2"></i> Add to cart</button>
+
+                                     
+                                 </div>
+                             </div>           
+        </div> 
+        <div class="col-md-4 mt-2">
+         
+             
+            <div class="card">
+                                <div class="card-body">
+                                    <div class="card-img-actions">
+                                        
+                                            <img src="../IMG/donghonam7.png" class="card-img img-fluid" width="96" height="350" alt="">
+                                          
+                                       
+                                    </div>
+                                </div>
+
+                                <div class="card-body bg-light text-center">
+                                    <div class="mb-2">
+                                        <h6 class="font-weight-semibold mb-2">
+                                            <a href="#" class="text-default mb-2" data-abc="true">Casio MTP-V002GL-7B2UDF – Nam – Quartz (Pin) – Mặt Số 37mm, Kính Cứng, Chống Nước 3ATM</a>
+                                        </h6>
+
+                                        <a href="#" class="text-muted" data-abc="true">Đồng hồ nam</a>
+                                    </div>
+
+                                    <h3 class="mb-0 font-weight-semibold">889.000 &#8363;</h3>
+
+                                    <div class="text-muted mb-3">126 reviews</div>
+                                    <!-- rating -->
+                                    <div class="rating">
+
+                                        <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label>
+                                        <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label>
+                                        <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label>
+                                        <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label>
+                                        <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
+                                    </div>
+
+                                    <button type="button" class="btn bg-cart"><i class="fa fa-cart-plus mr-2"></i> Add to cart</button>
+
+                                    
+                                </div>
+                            </div>
+
+
+                        
+                         
+       </div> 
+       <div class="col-md-4 mt-2">
+         
+             
+        <div class="card">
+                            <div class="card-body">
+                                <div class="card-img-actions">
+                                    
+                                        <img src="../IMG/donghonam8.png" class="card-img img-fluid" width="96" height="350" alt="">
+                                      
+                                   
+                                </div>
+                            </div>
+
+                            <div class="card-body bg-light text-center">
+                                <div class="mb-2">
+                                    <h6 class="font-weight-semibold mb-2">
+                                        <a href="#" class="text-default mb-2" data-abc="true">Casio MTP-1183E-7ADF – Nam – Quartz (Pin) – Kính cứng – Mặt số mạ bạc tối giản trẻ trung</a>
+                                    </h6>
+
+                                    <a href="#" class="text-muted" data-abc="true">Đồng hồ nam</a>
+                                </div>
+
+                                <h3 class="mb-0 font-weight-semibold">1.036.000 &#8363;</h3>
+
+                                <div class="text-muted mb-3">334 reviews</div>
+                                <!-- rating -->
+                                <div class="rating">
+
+                                    <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label>
+                                    <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label>
+                                    <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label>
+                                    <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label>
+                                    <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
+                                </div>
+
+                                <button type="button" class="btn bg-cart"><i class="fa fa-cart-plus mr-2"></i> Add to cart</button>
+
+                                
+                            </div>
+                        </div>
+
+
+                    
+                     
+   </div> 
+   <div class="col-md-4 mt-2">
+         
+             
+    <div class="card">
+                        <div class="card-body">
+                            <div class="card-img-actions">
+                                
+                                    <img src="../IMG/donghonam9.png" class="card-img img-fluid" width="96" height="350" alt="">
+                                  
+                               
+                            </div>
+                        </div>
+
+                        <div class="card-body bg-light text-center">
+                            <div class="mb-2">
+                                <h6 class="font-weight-semibold mb-2">
+                                    <a href="#" class="text-default mb-2" data-abc="true">Casio MTP-1381L-1AVDF – Nam – Quartz (Pin) – Mặt Số 39.9mm, Kính Cứng, Chống Nước 5ATM</a>
+                                </h6>
+
+                                <a href="#" class="text-muted" data-abc="true">Đồng hồ nam</a>
+                            </div>
+
+                            <h3 class="mb-0 font-weight-semibold">1.752.000 &#8363;</h3>
+
+                            <div class="text-muted mb-3">123 reviews</div>
+                            <!-- rating -->
+                            <div class="rating">
+
+                                <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label>
+                                <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label>
+                                <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label>
+                                <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label>
+                                <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
+                            </div>
+
+                            <button type="button" class="btn bg-cart"><i class="fa fa-cart-plus mr-2"></i> Add to cart</button>
+
+                            
+                        </div>
+                    </div>
+
+
+                
+                 
+</div> 
+<div class="col-md-4 mt-2">
+         
+             
+    <div class="card">
+                        <div class="card-body">
+                            <div class="card-img-actions">
+                                
+                                    <img src="../IMG/donghonam10.png" class="card-img img-fluid" width="96" height="350" alt="">
+                                  
+                               
+                            </div>
+                        </div>
+
+                        <div class="card-body bg-light text-center">
+                            <div class="mb-2">
+                                <h6 class="font-weight-semibold mb-2">
+                                    <a href="#" class="text-default mb-2" data-abc="true">Casio MTP-1381D-1AVDF – Nam – Quartz (Pin) – Mặt Số 39.9 mm, Lịch Ngày Thứ, Chống Nước 5 ATM</a>
+                                </h6>
+
+                                <a href="#" class="text-muted" data-abc="true">Đồng hồ nam</a>
+                            </div>
+
+                            <h3 class="mb-0 font-weight-semibold">1.865.000 &#8363;</h3>
+
+                            <div class="text-muted mb-3">123 reviews</div>
+                            <!-- rating -->
+                            <div class="rating">
+
+                                <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label>
+                                <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label>
+                                <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label>
+                                <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label>
+                                <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
+                            </div>
+
+                            <button type="button" class="btn bg-cart"><i class="fa fa-cart-plus mr-2"></i> Add to cart</button>
+
+                            
+                        </div>
+                    </div>
+
+
+                
+                 
+</div> 
+<div class="col-md-4 mt-2">
+         
+             
+    <div class="card">
+                        <div class="card-body">
+                            <div class="card-img-actions">
+                                
+                                    <img src="../IMG/donghonam11.png" class="card-img img-fluid" width="96" height="350" alt="">
+                                  
+                               
+                            </div>
+                        </div>
+
+                        <div class="card-body bg-light text-center">
+                            <div class="mb-2">
+                                <h6 class="font-weight-semibold mb-2">
+                                    <a href="#" class="text-default mb-2" data-abc="true">Casio MTP-V300L-1AUDF – Nam – Quartz (Pin) – Mặt Số 41.5mm, Kính Cứng, Chống Nước 3ATM</a>
+                                </h6>
+
+                                <a href="#" class="text-muted" data-abc="true">Đồng hồ nam</a>
+                            </div>
+
+                            <h3 class="mb-0 font-weight-semibold">1.752.000 &#8363;</h3>
+
+                            <div class="text-muted mb-3">123 reviews</div>
+                            <!-- rating -->
+                            <div class="rating">
+
+                                <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label>
+                                <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label>
+                                <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label>
+                                <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label>
+                                <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
+                            </div>
+
+                            <button type="button" class="btn bg-cart"><i class="fa fa-cart-plus mr-2"></i> Add to cart</button>
+
+                            
+                        </div>
+                    </div>
+
+
+                
+                 
+</div> 
+<div class="col-md-4 mt-2">
+         
+             
+    <div class="card">
+                        <div class="card-body">
+                            <div class="card-img-actions">
+                                
+                                    <img src="../IMG/donghonam12.png" class="card-img img-fluid" width="96" height="350" alt="">
+                                  
+                               
+                            </div>
+                        </div>
+
+                        <div class="card-body bg-light text-center">
+                            <div class="mb-2">
+                                <h6 class="font-weight-semibold mb-2">
+                                    <a href="#" class="text-default mb-2" data-abc="true">Casio F-201WA-9ADF – Nam – Kính Nhựa – Quartz (Pin) – Mặt Số 34mm, Bộ Bấm Giờ</a>
+                                </h6>
+
+                                <a href="#" class="text-muted" data-abc="true">Đồng hồ nam</a>
+                            </div>
+
+                            <h3 class="mb-0 font-weight-semibold">716.000 &#8363;</h3>
+
+                            <div class="text-muted mb-3">123 reviews</div>
+                            <!-- rating -->
+                            <div class="rating">
+
+                                <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label>
+                                <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label>
+                                <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label>
+                                <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label>
+                                <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
+                            </div>
+
+                            <button type="button" class="btn bg-cart"><i class="fa fa-cart-plus mr-2"></i> Add to cart</button>
+
+                            
+                        </div>
+                    </div>
+
+
+                
+                 
+</div> 
+<div class="col-md-4 mt-2">
+         
+             
+    <div class="card">
+                        <div class="card-body">
+                            <div class="card-img-actions">
+                                
+                                    <img src="../IMG/donghonam13.png" class="card-img img-fluid" width="96" height="350" alt="">
+                                  
+                               
+                            </div>
+                        </div>
+
+                        <div class="card-body bg-light text-center">
+                            <div class="mb-2">
+                                <h6 class="font-weight-semibold mb-2">
+                                    <a href="#" class="text-default mb-2" data-abc="true">Casio MTP-1302D-1A1VDF – Nam – Quartz (Pin) – Mặt Số 38.5 mm, Kính Cứng, Chống Nước 5ATM</a>
+                                </h6>
+
+                                <a href="#" class="text-muted" data-abc="true">Đồng hồ nam</a>
+                            </div>
+
+                            <h3 class="mb-0 font-weight-semibold">1.476.000 &#8363;</h3>
+
+                            <div class="text-muted mb-3">123 reviews</div>
+                            <!-- rating -->
+                            <div class="rating">
+
+                                <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label>
+                                <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label>
+                                <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label>
+                                <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label>
+                                <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
+                            </div>
+
+                            <button type="button" class="btn bg-cart"><i class="fa fa-cart-plus mr-2"></i> Add to cart</button>
+
+                            
+                        </div>
+                    </div>
+
+
+                
+                 
+</div> 
+<div class="col-md-4 mt-2">
+         
+             
+    <div class="card">
+                        <div class="card-body">
+                            <div class="card-img-actions">
+                                
+                                    <img src="../IMG/donghonam14.png" class="card-img img-fluid" width="96" height="350" alt="">
+                                  
+                               
+                            </div>
+                        </div>
+
+                        <div class="card-body bg-light text-center">
+                            <div class="mb-2">
+                                <h6 class="font-weight-semibold mb-2">
+                                    <a href="#" class="text-default mb-2" data-abc="true">Casio EFR-526L-1AVUDF – Nam – Quartz (Pin) – Mặt số 43.8mm màu đen – Sở hữu 3 mặt số phụ</a>
+                                </h6>
+
+                                <a href="#" class="text-muted" data-abc="true">Đồng hồ nam</a>
+                            </div>
+
+                            <h3 class="mb-0 font-weight-semibold">3.426.000 &#8363;</h3>
+
+                            <div class="text-muted mb-3">143 reviews</div>
+                            <!-- rating -->
+                            <div class="rating">
+
+                                <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label>
+                                <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label>
+                                <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label>
+                                <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label>
+                                <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
+                            </div>
+
+                            <button type="button" class="btn bg-cart"><i class="fa fa-cart-plus mr-2"></i> Add to cart</button>
+
+                            
+                        </div>
+                    </div>
+
+
+                
+                 
+</div> 
+<div class="col-md-4 mt-2">
+         
+             
+    <div class="card">
+                        <div class="card-body">
+                            <div class="card-img-actions">
+                                
+                                    <img src="../IMG/donghonam15.png" class="card-img img-fluid" width="96" height="350" alt="">
+                                  
+                               
+                            </div>
+                        </div>
+
+                        <div class="card-body bg-light text-center">
+                            <div class="mb-2">
+                                <h6 class="font-weight-semibold mb-2">
+                                    <a href="#" class="text-default mb-2" data-abc="true">Casio MTP-1335D-2A2VDF – Nam – Kính Cứng – Quartz (Pin) – Mặt Số 41.5mm, Dạ Quang, Chống Nước </a>
+                                </h6>
+
+                                <a href="#" class="text-muted" data-abc="true">Đồng hồ nam</a>
+                            </div>
+
+                            <h3 class="mb-0 font-weight-semibold">1.641.000 &#8363;</h3>
+
+                            <div class="text-muted mb-3">224 reviews</div>
+                            <!-- rating -->
+                            <div class="rating">
+
+                                <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label>
+                                <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label>
+                                <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label>
+                                <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label>
+                                <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
+                            </div>
+
+                            <button type="button" class="btn bg-cart"><i class="fa fa-cart-plus mr-2"></i> Add to cart</button>
+
+                            
+                        </div>
+                    </div>
+
+
+                
+                 
+</div> 
+
+<div class="col-md-4 mt-2">
+         
+             
+    <div class="card">
+                        <div class="card-body">
+                            <div class="card-img-actions">
+                                
+                                    <img src="../IMG/donghonam16.png" class="card-img img-fluid" width="96" height="350" alt="">
+                                  
+                               
+                            </div>
+                        </div>
+
+                        <div class="card-body bg-light text-center">
+                            <div class="mb-2">
+                                <h6 class="font-weight-semibold mb-2">
+                                    <a href="#" class="text-default mb-2" data-abc="true">Casio MTP-V002D-7BUDF – Nam – Quartz (Pin) – Mặt Số 37mm, Kính Cứng, Chống Nước 3ATM</a>
+                                </h6>
+
+                                <a href="#" class="text-muted" data-abc="true">Đồng hồ nam</a>
+                            </div>
+
+                            <h3 class="mb-0 font-weight-semibold">994.000 &#8363;</h3>
+
+                            <div class="text-muted mb-3">256 reviews</div>
+                            <!-- rating -->
+                            <div class="rating">
+
+                                <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label>
+                                <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label>
+                                <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label>
+                                <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label>
+                                <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
+                            </div>
+
+                            <button type="button" class="btn bg-cart"><i class="fa fa-cart-plus mr-2"></i> Add to cart</button>
+
+                            
+                        </div>
+                    </div>
+
+
+                
+                 
+</div> 
+<div class="col-md-4 mt-2">
+         
+             
+    <div class="card">
+                        <div class="card-body">
+                            <div class="card-img-actions">
+                                
+                                    <img src="../IMG/donghonam17.png" class="card-img img-fluid" width="96" height="350" alt="">
+                                  
+                               
+                            </div>
+                        </div>
+
+                        <div class="card-body bg-light text-center">
+                            <div class="mb-2">
+                                <h6 class="font-weight-semibold mb-2">
+                                    <a href="#" class="text-default mb-2" data-abc="true">Casio MTP-VD300L-1EUDF – Nam – Kính Cứng – Quartz (Pin) – Mặt Số 45mm, Dạ Quang</a>
+                                </h6>
+
+                                <a href="#" class="text-muted" data-abc="true">Đồng hồ nam</a>
+                            </div>
+
+                            <h3 class="mb-0 font-weight-semibold">1.764.000 &#8363;</h3>
+
+                            <div class="text-muted mb-3">423 reviews</div>
+                            <!-- rating -->
+                            <div class="rating">
+
+                                <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label>
+                                <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label>
+                                <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label>
+                                <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label>
+                                <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
+                            </div>
+
+                            <button type="button" class="btn bg-cart"><i class="fa fa-cart-plus mr-2"></i> Add to cart</button>
+
+                            
+                        </div>
+                    </div>
+
+
+                
+                 
+</div> 
+<div class="col-md-4 mt-2">
+         
+             
+    <div class="card">
+                        <div class="card-body">
+                            <div class="card-img-actions">
+                                
+                                    <img src="../IMG/donghonam18.png" class="card-img img-fluid" width="96" height="350" alt="">
+                                  
+                               
+                            </div>
+                        </div>
+
+                        <div class="card-body bg-light text-center">
+                            <div class="mb-2">
+                                <h6 class="font-weight-semibold mb-2">
+                                    <a href="#" class="text-default mb-2" data-abc="true">Casio MTP-V006L-1B2UDF – Nam – Quartz (Pin) – Mặt Số 38mm, Kính Cứng, Chống Nước 3ATM</a>
+                                </h6>
+
+                                <a href="#" class="text-muted" data-abc="true">Đồng hồ nam</a>
+                            </div>
+
+                            <h3 class="mb-0 font-weight-semibold">930.000 &#8363;</h3>
+
+                            <div class="text-muted mb-3">123 reviews</div>
+                            <!-- rating -->
+                            <div class="rating">
+
+                                <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label>
+                                <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label>
+                                <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label>
+                                <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label>
+                                <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
+                            </div>
+
+                            <button type="button" class="btn bg-cart"><i class="fa fa-cart-plus mr-2"></i> Add to cart</button>
+
+                            
+                        </div>
+                    </div>
+
+
+                
+                 
+</div> 
+<div class="col-md-4 mt-2">
+         
+             
+    <div class="card">
+                        <div class="card-body">
+                            <div class="card-img-actions">
+                                
+                                    <img src="../IMG/donghonam19.png" class="card-img img-fluid" width="96" height="350" alt="">
+                                  
+                               
+                            </div>
+                        </div>
+
+                        <div class="card-body bg-light text-center">
+                            <div class="mb-2">
+                                <h6 class="font-weight-semibold mb-2">
+                                    <a href="#" class="text-default mb-2" data-abc="true">Casio W-218H-4BVDF – Nam – Thiết kế thể thao đặc trưng – Mạnh mẽ nam tính và đầy cuốn hút </a>
+                                </h6>
+
+                                <a href="#" class="text-muted" data-abc="true">Đồng hồ nam</a>
+                            </div>
+
+                            <h3 class="mb-0 font-weight-semibold">848.000 &#8363;</h3>
+
+                            <div class="text-muted mb-3">443 reviews</div>
+                            <!-- rating -->
+                            <div class="rating">
+
+                                <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label>
+                                <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label>
+                                <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label>
+                                <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label>
+                                <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
+                            </div>
+
+                            <button type="button" class="btn bg-cart"><i class="fa fa-cart-plus mr-2"></i> Add to cart</button>
+
+                            
+                        </div>
+                    </div>
+
+
+                
+                 
+</div> 
+<div class="col-md-4 mt-2">
+         
+             
+    <div class="card">
+                        <div class="card-body">
+                            <div class="card-img-actions">
+                                
+                                    <img src="../IMG/donghonam20.png" class="card-img img-fluid" width="96" height="350" alt="">
+                                  
+                               
+                            </div>
+                        </div>
+
+                        <div class="card-body bg-light text-center">
+                            <div class="mb-2">
+                                <h6 class="font-weight-semibold mb-2">
+                                    <a href="#" class="text-default mb-2" data-abc="true">Citizen NH8353-00H – Nam – Kính Cứng – Automatic (Tự Động) – Mặt Số 40mm, Chống Nước 3ATM</a>
+                                </h6>
+
+                                <a href="#" class="text-muted" data-abc="true">Đồng hồ nam</a>
+                            </div>
+
+                            <h3 class="mb-0 font-weight-semibold">6.485.000 &#8363;</h3>
+
+                            <div class="text-muted mb-3">123 reviews</div>
+                            <!-- rating -->
+                            <div class="rating">
+
+                                <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label>
+                                <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label>
+                                <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label>
+                                <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label>
+                                <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
+                            </div>
+
+                            <button type="button" class="btn bg-cart"><i class="fa fa-cart-plus mr-2"></i> Add to cart</button>
+
+                            
+                        </div>
+                    </div>
+
+
+                
+                 
+</div> 
+<div class="col-md-4 mt-2">
+         
+             
+    <div class="card">
+                        <div class="card-body">
+                            <div class="card-img-actions">
+                                
+                                    <img src="../IMG/donghonam21.png" class="card-img img-fluid" width="96" height="350" alt="">
+                                  
+                               
+                            </div>
+                        </div>
+
+                        <div class="card-body bg-light text-center">
+                            <div class="mb-2">
+                                <h6 class="font-weight-semibold mb-2">
+                                    <a href="#" class="text-default mb-2" data-abc="true">Casio MTP-1302D-7A2VDF – Nam – Quartz (Pin) – Mặt Số 38.5mm, Kính Cứng</a>
+                                </h6>
+
+                                <a href="#" class="text-muted" data-abc="true">Đồng hồ nam</a>
+                            </div>
+
+                            <h3 class="mb-0 font-weight-semibold">1.476.000 &#8363;</h3>
+
+                            <div class="text-muted mb-3">123 reviews</div>
+                            <!-- rating -->
+                            <div class="rating">
+
+                                <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label>
+                                <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label>
+                                <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label>
+                                <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label>
+                                <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
+                            </div>
+
+                            <button type="button" class="btn bg-cart"><i class="fa fa-cart-plus mr-2"></i> Add to cart</button>
+
+                            
+                        </div>
+                    </div>
+
+
+                
+                 
+</div> 
+<div class="col-md-4 mt-2">
+         
+             
+    <div class="card">
+                        <div class="card-body">
+                            <div class="card-img-actions">
+                                
+                                    <img src="../IMG/donghonam22.png" class="card-img img-fluid" width="96" height="350" alt="">
+                                  
+                               
+                            </div>
+                        </div>
+
+                        <div class="card-body bg-light text-center">
+                            <div class="mb-2">
+                                <h6 class="font-weight-semibold mb-2">
+                                    <a href="#" class="text-default mb-2" data-abc="true">Casio MTP-1384L-1AVDF – Nam – Quartz (Pin) – Mặt Số 41mm, Kính Cứng</a>
+                                </h6>
+
+                                <a href="#" class="text-muted" data-abc="true">Đồng hồ nam</a>
+                            </div>
+
+                            <h3 class="mb-0 font-weight-semibold">2.392.000 &#8363;</h3>
+
+                            <div class="text-muted mb-3">473 reviews</div>
+                            <!-- rating -->
+                            <div class="rating">
+
+                                <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label>
+                                <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label>
+                                <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label>
+                                <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label>
+                                <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
+                            </div>
+
+                            <button type="button" class="btn bg-cart"><i class="fa fa-cart-plus mr-2"></i> Add to cart</button>
+
+                            
+                        </div>
+                    </div>
+
+
+                
+                 
+</div> 
+<div class="col-md-4 mt-2">
+         
+             
+    <div class="card">
+                        <div class="card-body">
+                            <div class="card-img-actions">
+                                
+                                    <img src="../IMG/donghonam23.png" class="card-img img-fluid" width="96" height="350" alt="">
+                                  
+                               
+                            </div>
+                        </div>
+
+                        <div class="card-body bg-light text-center">
+                            <div class="mb-2">
+                                <h6 class="font-weight-semibold mb-2">
+                                    <a href="#" class="text-default mb-2" data-abc="true">Casio MTP-V006D-7BUDF – Nam – Quartz (Pin) – Mặt Số 38mm, Kính Cứng</a>
+                                </h6>
+
+                                <a href="#" class="text-muted" data-abc="true">Đồng hồ nam</a>
+                            </div>
+
+                            <h3 class="mb-0 font-weight-semibold">1.036.000 &#8363;</h3>
+
+                            <div class="text-muted mb-3">553 reviews</div>
+                            <!-- rating -->
+                            <div class="rating">
+
+                                <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label>
+                                <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label>
+                                <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label>
+                                <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label>
+                                <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
+                            </div>
+
+                            <button type="button" class="btn bg-cart"><i class="fa fa-cart-plus mr-2"></i> Add to cart</button>
+
+                            
+                        </div>
+                    </div>
+
+
+                
+                 
+</div> 
+<div class="col-md-4 mt-2">
+         
+             
+    <div class="card">
+                        <div class="card-body">
+                            <div class="card-img-actions">
+                                
+                                    <img src="../IMG/donghonam24.png" class="card-img img-fluid" width="96" height="350" alt="">
+                                  
+                               
+                            </div>
+                        </div>
+
+                        <div class="card-body bg-light text-center">
+                            <div class="mb-2">
+                                <h6 class="font-weight-semibold mb-2">
+                                    <a href="#" class="text-default mb-2" data-abc="true">Casio MTP-1183A-7ADF – Nam – Quartz (Pin) – Mặt Số 38.5mm, Kính Cứng</a>
+                                </h6>
+                                <a href="#" class="text-muted" data-abc="true">Đồng hồ nam</a>
+                            </div>
+
+                            <h3 class="mb-0 font-weight-semibold">1.251.000 &#8363;</h3>
+
+                            <div class="text-muted mb-3">666 reviews</div>
+                            <!-- rating -->
+                            <div class="rating">
+
+                                <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label>
+                                <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label>
+                                <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label>
+                                <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label>
+                                <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
+                            </div>
+
+                            <button type="button" class="btn bg-cart"><i class="fa fa-cart-plus mr-2"></i> Add to cart</button>
+
+                            
+                        </div>
+                    </div>
+
+
+                
+                 
+</div> 
+<div class="col-md-4 mt-2">
+         
+             
+    <div class="card">
+                        <div class="card-body">
+                            <div class="card-img-actions">
+                                
+                                    <img src="../IMG/donghonam25.png" class="card-img img-fluid" width="96" height="350" alt="">
+                                  
+                               
+                            </div>
+                        </div>
+
+                        <div class="card-body bg-light text-center">
+                            <div class="mb-2">
+                                <h6 class="font-weight-semibold mb-2">
+                                    <a href="#" class="text-default mb-2" data-abc="true">Casio MW-240-7BVDF – Nam – Quartz (Pin) – Mặt Số 43.6mm, Kính Cứng, Chống Nước 5ATM</a>
+                                </h6>
+
+                                <a href="#" class="text-muted" data-abc="true">Đồng hồ nam</a>
+                            </div>
+
+                            <h3 class="mb-0 font-weight-semibold">623.000 &#8363;</h3>
+
+                            <div class="text-muted mb-3">123 reviews</div>
+                            <!-- rating -->
+                            <div class="rating">
+
+                                <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label>
+                                <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label>
+                                <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label>
+                                <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label>
+                                <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
+                            </div>
+
+                            <button type="button" class="btn bg-cart"><i class="fa fa-cart-plus mr-2"></i> Add to cart</button>
+
+                            
+                        </div>
+                    </div>
+
+
+                
+                 
+</div> 
+<div class="col-md-4 mt-2">
+         
+             
+    <div class="card">
+                        <div class="card-body">
+                            <div class="card-img-actions">
+                                
+                                    <img src="../IMG/donghonam26.png" class="card-img img-fluid" width="96" height="350" alt="">
+                                  
+                               
+                            </div>
+                        </div>
+
+                        <div class="card-body bg-light text-center">
+                            <div class="mb-2">
+                                <h6 class="font-weight-semibold mb-2">
+                                    <a href="#" class="text-default mb-2" data-abc="true">Casio MTP-1370L-1AVDF – Nam – Quartz (Pin) – Mặt số 39.8mm, kính cứng, chống nước 5ATM</a>
+                                </h6>
+                                    <a href="#" class="text-muted" data-abc="true">Đồng hồ nam</a>
+                            </div>
+
+                            <h3 class="mb-0 font-weight-semibold">1.654.000 &#8363;</h3>
+
+                            <div class="text-muted mb-3">1223 reviews</div>
+                            <!-- rating -->
+                            <div class="rating">
+
+                                <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label>
+                                <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label>
+                                <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label>
+                                <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label>
+                                <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
+                            </div>
+
+                            <button type="button" class="btn bg-cart"><i class="fa fa-cart-plus mr-2"></i> Add to cart</button>
+
+                            
+                        </div>
+                    </div>
+
+
+                
+                 
+</div> 
+<div class="col-md-4 mt-2">
+         
+             
+    <div class="card">
+                        <div class="card-body">
+                            <div class="card-img-actions">
+                                
+                                    <img src="../IMG/donghonam27.png" class="card-img img-fluid" width="96" height="350" alt="">
+                                  
+                               
+                            </div>
+                        </div>
+
+                        <div class="card-body bg-light text-center">
+                            <div class="mb-2">
+                                <h6 class="font-weight-semibold mb-2">
+                                    <a href="#" class="text-default mb-2" data-abc="true">Casio MTP-1381L-7AVDF – Nam – Quartz (Pin) – Mặt Số 40mm, Kính Cứng, Chống Nước 5ATM</a>
+                                </h6>
+
+                                <a href="#" class="text-muted" data-abc="true">Đồng hồ nam</a>
+                            </div>
+
+                            <h3 class="mb-0 font-weight-semibold">1.752.000 &#8363;</h3>
+
+                            <div class="text-muted mb-3">1113 reviews</div>
+                            <!-- rating -->
+                            <div class="rating">
+
+                                <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label>
+                                <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label>
+                                <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label>
+                                <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label>
+                                <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
+                            </div>
+
+                            <button type="button" class="btn bg-cart"><i class="fa fa-cart-plus mr-2"></i> Add to cart</button>
+
+                            
+                        </div>
+                    </div>
+
+
+                
+                 
+</div> 
+<div class="col-md-4 mt-2">
+         
+             
+    <div class="card">
+                        <div class="card-body">
+                            <div class="card-img-actions">
+                                
+                                    <img src="../IMG/donghonam28.png" class="card-img img-fluid" width="96" height="350" alt="">
+                                  
+                               
+                            </div>
+                        </div>
+
+                        <div class="card-body bg-light text-center">
+                            <div class="mb-2">
+                                <h6 class="font-weight-semibold mb-2">
+                                    <a href="#" class="text-default mb-2" data-abc="true">Seiko 5 Sports 55th Anniversary Limited Edition SRPK17K1 – Nam – Kính Cứng – Automatic</a>
+                                </h6>
+
+                                <a href="#" class="text-muted" data-abc="true">Đồng hồ nam</a>
+                            </div>
+
+                            <h3 class="mb-0 font-weight-semibold">13.170.000 &#8363;</h3>
+
+                            <div class="text-muted mb-3">2443 reviews</div>
+                            <!-- rating -->
+                            <div class="rating">
+
+                                <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label>
+                                <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label>
+                                <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label>
+                                <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label>
+                                <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
+                            </div>
+
+                            <button type="button" class="btn bg-cart"><i class="fa fa-cart-plus mr-2"></i> Add to cart</button>
+
+                            
+                        </div>
+                    </div>
+
+
+                
+                 
+</div> 
+<div class="col-md-4 mt-2">
+         
+             
+    <div class="card">
+                        <div class="card-body">
+                            <div class="card-img-actions">
+                                
+                                    <img src="../IMG/donghonam29.png" class="card-img img-fluid" width="96" height="350" alt="">
+                                  
+                               
+                            </div>
+                        </div>
+
+                        <div class="card-body bg-light text-center">
+                            <div class="mb-2">
+                                <h6 class="font-weight-semibold mb-2">
+                                    <a href="#" class="text-default mb-2" data-abc="true">Casio AE-1500WH-8BVDF – Nam – Kính Nhựa – Quartz (Pin) – Mặt số 51.2 mm, bộ bấm giờ</a>
+                                </h6>
+
+                                <a href="#" class="text-muted" data-abc="true">Đồng hồ nam</a>
+                            </div>
+
+                            <h3 class="mb-0 font-weight-semibold">1.295.000 &#8363;</h3>
+
+                            <div class="text-muted mb-3">123 reviews</div>
+                            <!-- rating -->
+                            <div class="rating">
+
+                                <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label>
+                                <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label>
+                                <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label>
+                                <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label>
+                                <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
+                            </div>
+
+                            <button type="button" class="btn bg-cart"><i class="fa fa-cart-plus mr-2"></i> Add to cart</button>
+
+                            
+                        </div>
+                    </div>
+
+
+                
+                 
+</div> 
+<div class="col-md-4 mt-2">
+         
+             
+    <div class="card">
+                        <div class="card-body">
+                            <div class="card-img-actions">
+                                
+                                    <img src="../IMG/donghonam30.png" class="card-img img-fluid" width="96" height="350" alt="">
+                                  
+                               
+                            </div>
+                        </div>
+
+                        <div class="card-body bg-light text-center">
+                            <div class="mb-2">
+                                <h6 class="font-weight-semibold mb-2">
+                                    <a href="#" class="text-default mb-2" data-abc="true">Casio MTP-1374D-2AVDF – Nam – Quartz (Pin) – Mặt Số 41.2mm, Kính Cứng</a>
+                                </h6>
+
+                                <a href="#" class="text-muted" data-abc="true">Đồng hồ nam</a>
+                            </div>
+
+                            <h3 class="mb-0 font-weight-semibold">2.394.000 &#8363;</h3>
+
+                            <div class="text-muted mb-3">2223 reviews</div>
+                            <!-- rating -->
+                            <div class="rating">
+
+                                <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label>
+                                <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label>
+                                <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label>
+                                <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label>
+                                <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
+                            </div>
+
+                            <button type="button" class="btn bg-cart"><i class="fa fa-cart-plus mr-2"></i> Add to cart</button>
+
+                            
+                        </div>
+                    </div>
+
+
+                
+                 
+</div> 
+
+        
+     </div> <!-- row end.// -->
+    
+    
+    <nav class="mt-4" aria-label="Page navigation sample" style="margin-left: 315px;margin-bottom: -40px;">
+      <ul class="pagination">
+        <li class="page-item disabled"><a class="page-link" href="#">Previous</a></li>
+        <li class="page-item"><a class="page-link" href="../HTML/Donghonam.html">1</a></li>
+        <li class="page-item active"><a class="page-link" href="../HTML/Donghonam2.html">2</a></li>
+        <li class="page-item"><a class="page-link" href="../HTML/Donghonam3.html">3</a></li>
+        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+      </ul>
+    </nav>
+    
+        </main>
+        </div>
+    </div>
+
+    
+
+    <!-- Footer -->
+    <footer class="footer">
+        <section class="content-footer">
+          <div class="container text-center text-md-start mt-5">
+            <div class="row mt-3">
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <h6 class="text-uppercase fw-bold mb-4">
+                  <i class="fas fa-gem me-3"></i>Store Otis
+                </h6>
+                <p>
+                  Welcome to shop Store Otis , we have anything you need . Come with us !
+                </p>
+              </div>
+      
+    
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <h6 class="text-uppercase fw-bold mb-4">
+                  PRODUCT
+                </h6>
+                <p>
+                  <a href="../HTML/Donghonam.html" class="text-reset">Đồng hồ nam</a>
+                </p>
+                <p>
+                  <a href="../HTML/Donghonu.html" class="text-reset">Đồng hồ nữ</a>
+                </p>
+                <p>
+                  <a href="../HTML/Phukiendongho.html" class="text-reset">Phụ kiện đồng hồ chính hãng</a>
+                </p>
+                <p>
+                  <a href="../HTML/Tintuc.html" class="text-reset">Tin tức</a>
+                </p>
+              </div>
+      
+    
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <h6 class="text-uppercase fw-bold mb-4">
+                  SUPPORT
+                </h6>
+                <p>
+                  <a href="#!" class="text-reset">Settings</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Orders</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Help</a>
+                </p>
+              </div>
+      
+    
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                <p><i class="fa fa-home"></i>
+                    TP. Biên Hòa , T.Đồng Nai , P.Trảng Dài</p>
+                <p>
+                    <i class="material-icons" style="margin-bottom: 10px;">person</i>
+                    vudinhkhoa2k2@gmail.com
+                </p>
+                <p><i class="fa fa-phone" style="font-size:15px"></i>&nbsp; 0328 710 708</p>
+                <p><i class="fa fa-phone" style="font-size:15px;"></i>&nbsp; 0123 456 789</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+          © 2024 Copyright:
+          <a class="text-reset fw-bold" href="../HTML/Trangchu.html">STOREOTIS.com</a>
+        </div>
+      </footer>    
+</body>
+</html>
